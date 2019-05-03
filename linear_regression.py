@@ -1,4 +1,9 @@
-from data_generation import *
+import tensorflow as tf
 
-X_train, Y_train = generate_random_dataset(datapoints=100)
-X_test, _ = generate_random_dataset(datapoints=25)
+class LinearRegression():
+  def __init__(self):
+    self.slope = tf.Variable(5.0)
+    self.intercept = tf.Variable(0.0)
+
+  def __call__(self, X):
+    return self.slope * X + self.intercept
