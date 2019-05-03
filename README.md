@@ -7,8 +7,7 @@ To launch the program and see different visualisations of the model trying to fi
 ```
 python regression.py
 ```
-*NB : I used Google colab to quickly develop and test this model, as well as accessing an already configured and performant environment.*  
-Google colab is free for small amounts of data and processing, and is available here : ![https://colab.research.google.com/](https://colab.research.google.com/)  
+*NB* : I used `Google colab` to quickly develop and test this model, as well as accessing an already configured and performant environment. Google colab is free for small amounts of data and processing, and is available here : ![https://colab.research.google.com/](https://colab.research.google.com/)  
 
 The program shall draw scatterplots of points, with the best fit line found by the model through iterative training :  
 ![Best fit line](images/best_fit_line.png)
