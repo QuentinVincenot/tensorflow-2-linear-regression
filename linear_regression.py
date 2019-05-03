@@ -7,3 +7,6 @@ class LinearRegression():
 
   def __call__(self, X):
     return self.slope * X + self.intercept
+
+  def loss_value(self, prediction, reality):
+    return tf.reduce_mean(tf.square(prediction - reality))
